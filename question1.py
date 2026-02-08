@@ -1,5 +1,5 @@
 """
-Question 1: Design a Bank Account Class (20 Marks)
+Question 1: Design a Bank Account Class (15 Marks)
 
 Problem Description:
 Create a Python class that represents a simple bank account. 
@@ -34,11 +34,9 @@ Constraints:
 - Negative deposit should not be allowed
 - Negative withdrawal should not be allowed
 
-Evaluation Rubric (20 Marks):
-Correct class & constructor -> 3 marks
-Instance variable usage -> 2 marks
-Deposit & withdraw -> 8 marks
-Code logic and readability -> 7 marks
+Evaluation Rubric (15 Marks):
+All test cases successful -> 12 marks
+Code logic and readability -> 3 marks
 
 Implement the below class - BankAccount
 

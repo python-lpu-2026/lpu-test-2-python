@@ -1,46 +1,49 @@
 """
-Question 3: Vehicle Type System Using Inheritance (15 Marks)
+Question 3: Combine Lengths of Two Ropes Using and printing the object value (20 Marks)
 
 Problem Description:
-You are required to model different types of vehicles using inheritance in Python.
+A rope has a certain length (in meters).
+If two ropes are tied together, the total length becomes the sum of their individual lengths.
+In this problem, you will create a class that represents a rope and overload the + operator so that 
+two rope objects can be added together.
+Also, when you print the object, you should get the length printed
 
-Create the following class structure:
-Base Class: Vehicle
-Method: get_fuel_type() -> returns string "Unknown"
+Create a class named Rope with the following requirements:
+Instance Variable:
+- length (int or float, in meters)
 
-Child Classes:
-1. Car
-Overrides get_fuel_type() and returns "Petrol"
+Methods:
+1. Initializes the rope length.
+2. Method that adds the lengths of two Rope objects
+3. Method that returns the length when the object is printed
 
-2. ElectricCar
-Overrides get_fuel_type() and returns "Electric"
+Returns a new Rope object
+If other is not a Rope, return NotImplemented
 
+Example:
+rope1 = Rope(5)
+rope2 = Rope(7)
 
-Example Usage:
-v1 = Car()
-v2 = ElectricCar()
+print(rope1)
+Output:
+5
 
-print(v1.get_fuel_type())
-print(v2.get_fuel_type())
+total = rope1 + rope2
+print(total)
 
 Output:
-Petrol
-Electric
-
+12
 
 Constraints:
-- Use inheritance correctly
-- Method overriding is mandatory
-- Do not hardcode values outside methods
-- Follow proper class naming conventions
+- Length must be positive
+- Both objects should of Rope class
+- Do not print inside class methods
 
-Evaluation Rubric (15 Marks):
-- Correct inheritance structure -> 4 marks
-- Method overriding -> 6 marks
+Evaluation Rubric (20 Marks):
+- Correct length calculation -> 8 marks
+- Printing the object value -> 7 marks
 - Code logic and readability -> 5 marks
-
-
 """
 
-class Vehicle:
+class Rope:
     pass
