@@ -1,5 +1,5 @@
 """
-Question 3: Combine Lengths of Two Ropes Using and printing the object value (20 Marks)
+Question 2: Combine Lengths of Two Ropes Using and printing the object value (20 Marks)
 
 Problem Description:
 A rope has a certain length (in meters).
