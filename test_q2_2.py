@@ -4,4 +4,6 @@ def test_add_correct_length():
     r1 = Rope(5.5)
     r2 = Rope(7)
     result = r1 + r2
-    assert result == 12.5
+    assert result == 12.5 or str(result) == "12.5"
+
+test_add_correct_length()

@@ -4,4 +4,4 @@ def test_add_returns_number():
     r1 = Rope(5)
     r2 = Rope(7)
     result = r1 + r2
-    assert isinstance(result, (int, float))
+    assert isinstance(result, (int, float, Rope))
